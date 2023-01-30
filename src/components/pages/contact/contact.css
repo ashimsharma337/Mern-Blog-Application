@@ -1,0 +1,69 @@
+.mainContainer{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+}
+
+.contactContainer{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.topMsg{
+    font-family: cursive;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.email{
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.message{
+    display: block;
+    font-family: cursive;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.input{
+   height: 20px;
+   margin-left: 10px;
+   width: 20%;
+    
+    
+}
+
+.comment{
+    display: block;
+    margin-left: 10px;
+    height: 300px;
+    width: 58%;
+}
+
+.button{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 18px;
+    font-family: cursive;
+    background-color: lightgreen;
+    border-radius: 10px;
+    cursor: pointer;
+}

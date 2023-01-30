@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.aboutContainer{
+    width: 300px;
+    text-align: center;
+    margin-left: 10px; 
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+    
+}
+
+.aboutHeader{
+    height: 30px;
+    padding-top: 10px;
+    font-size: medium;
+    background-color: teal;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.detailsIntro{
+    width: 100%;
+    background-color: teal;
+    color: white;
+    height: 30px;
+    position: relative;
+    top: -5px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    font-size: medium;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    
+}
