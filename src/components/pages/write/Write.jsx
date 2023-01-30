@@ -30,7 +30,7 @@ export default function Write() {
     }
     try{
     const res = await axios.post(process.env.REACT_APP_BASE_URL+"/posts", newPost);
-    window.location.replace("https://mern-blogapi.up.railway.app/posts/"+ res.data._id);
+    window.location.replace("https://mern-blog-application.up.railway.app/posts/"+ res.data._id);
     } catch (err){
       console.log(err);
     }
