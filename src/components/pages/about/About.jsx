@@ -5,8 +5,7 @@ import axios from "axios";
 function About() {
   
   const [posts, setPosts] = useState([]);
-  const [desc, setDesc] = useState("");
-
+ 
   useEffect(() => {
      axios.get(process.env.REACT_APP_BASE_URL+"/posts")
      .then((response) => {
@@ -36,7 +35,7 @@ function About() {
                 <h4 className="aboutHeader">{object.title}</h4>
                <img 
                   src ={object.photo}
-                  className="image"
+                  className="image" alt="title"
                 />
                 <p className="detailsIntro">{object.desc}</p>
               </div>
